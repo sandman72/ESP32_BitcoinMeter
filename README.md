@@ -3,7 +3,7 @@ Bitcoin Display for ESP32 LoLin Module
 
 ![BitcoinMeter](BitcoinMeter.jpg?raw=true "Bitcoin Meter Display")
 
-Displays the current Bitcoin Exchange Rate
+Displays the current Bitcoin Exchange Rate from coindesk.com
 
 Works on Wemos LoLin ESP32 board with OLED display
 and can be updated over the air (ArduinoOTA)
@@ -25,4 +25,5 @@ Configuration:
  - Select the currency you would like to get displayed
 
 I got the idea from:
+
 https://steemit.com/making/@makerhacks/programming-a-bitcoin-price-display-bot-with-arduino-esp8266-and-tft-screen
