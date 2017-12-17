@@ -5,7 +5,7 @@ Bitcoin Display for ESP32 LoLin Module
 
 Displays the current Bitcoin Exchange Rate from coindesk.com
 
-Works on Wemos LoLin ESP32 board with OLED display
+Works on LoLin ESP32 dev board with OLED display
 and can be updated over the air (ArduinoOTA)
 
 Author: Frank Hellmann, www.vfx.to, Dec 2017
