@@ -100,7 +100,7 @@ void fetchBTC() {
   Serial.print("requesting BTC data from: ");
   Serial.println(BTCHOST);
 
-  client.print(String("GET ") + BTCURL + " HTTP/1.1\r\n" +
+  client.print(String("GET ") + BTCURL + " HTTP/1.0\r\n" +
                "Host: " + BTCHOST + "\r\n" +
                "User-Agent: BitcoinMeter\r\n" +
                "Connection: close\r\n\r\n");
